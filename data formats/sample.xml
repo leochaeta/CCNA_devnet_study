@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<People>
+	<Person Id="1">
+		<FirstName>Juan</FirstName>
+		<LastName>Perez</LastName>
+		<Email>juan.perez@ciberc.com</Email>
+	</Person>
+
+	<Person Id="2">
+		<FirstName>Raul</FirstName>
+		<LastName>Flores</LastName>
+		<Email>raul.flores@ciberc.com</Email>
+	</Person>
+
+	<Person Id="3">
+		<FirstName>Eduardo</FirstName>
+		<LastName>Najera</LastName>
+		<Email>eduardo.najera@ciberc.com</Email>
+	</Person>
+</People>

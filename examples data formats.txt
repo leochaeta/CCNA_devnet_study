@@ -1,0 +1,57 @@
+#XML
+<?xml version="1.0" encoding="UTF-8"?>
+<People>
+	<Person Id="1">
+		<FirstName>Juan</FirstName>
+		<LastName>Perez</LastName>
+		<Email>juan.perez@ciberc.com</Email>
+	</Person>
+
+	<Person Id="2">
+		<FirstName>Raul</FirstName>
+		<LastName>Flores</LastName>
+		<Email>raul.flores@ciberc.com</Email>
+	</Person>
+
+	<Person Id="3">
+		<FirstName>Eduardo</FirstName>
+		<LastName>Najera</LastName>
+		<Email>eduardo.najera@ciberc.com</Email>
+	</Person>
+</People>
+
+#JSON
+[
+	{
+		"Id": "1"
+		"FirstName": "Juan"
+		"LastName": "Perez"
+		"Email": "juan.perez@ciberc.com"
+	},
+	{
+		"Id": "2"
+		"FirstName": "Raul"
+		"LastName": "Flores"
+		"Email": "raul.flores@ciberc.com"
+	},
+	{
+		"Id": "3"
+		"FirstName": "Eduardo"
+		"LastName": "Najera"
+		"Email": "eduardo.najera@ciberc.com"
+	}
+]
+#YAML
+---
+- ID: "1"
+  FirstName: Juan
+  LastName: Perez
+  Email: juan.perez@ciberc.com
+- ID: "2"
+  FirstName: Raul
+  LastName: Flores
+  Email: raul.flores@ciberc.com
+- ID: "3"
+  FirstName: Eduardo
+  LastName: Najera
+  Email: eduardo.naera@ciberc.com
