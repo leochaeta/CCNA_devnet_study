@@ -4,7 +4,7 @@ class observador:
          sujeto.registro(self)
 
      def notificar(self, evento):
-         print (self.nombre, "recibe un evento", evento)
+         print (self.nombre, "se recibe un evento", evento)
 
 class sujeto:
      def __init__(self):
@@ -23,4 +23,4 @@ class sujeto:
 sujeto = sujeto()
 observadorA = observador("<Observador A>", sujeto)
 observadorB = observador("<Observador B>", sujeto)
-print (sujeto.notificar_a_observadores("<notificamos 1 evento nuevo>"))
+print (sujeto.notificar_a_observadores("< hola se modifico algo>"))
