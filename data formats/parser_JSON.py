@@ -27,7 +27,7 @@ print (type(jsonstr))
 
 jsonobject =  json.loads(jsonstr)
 print (type(jsonobject))
-
+print (jsonobject)
 print (jsonobject['People'][1]['Email'])
 
 for x in jsonobject['People']:
