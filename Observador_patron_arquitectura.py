@@ -24,3 +24,4 @@ sujeto = sujeto()
 observadorA = observador("<Observador A>", sujeto)
 observadorB = observador("<Observador B>", sujeto)
 print (sujeto.notificar_a_observadores("< hola se modifico algo desde la local>"))
+
