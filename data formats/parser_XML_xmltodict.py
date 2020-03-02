@@ -1,11 +1,11 @@
 import xmltodict
 
-#Get XML file
+#Obtenemos el  archivo XML con open
 stream = open('sample.xml', 'r')
 
-#Parse the data into an ElementTree object
+#Parseamos la data
 xml = xmltodict.parse(stream.read())
 
 for e in xml['People']['Person']:
-	print (e)
+	print (F"hola {e['FirstName']} {e['LastName']} bienvenido al equipo de devnet")
 

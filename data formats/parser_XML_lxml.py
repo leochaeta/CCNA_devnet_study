@@ -1,19 +1,19 @@
 from lxml import etree as ET
 
-#Get XML file
-stream = open('sample.xml', 'r')
+#obtener el archivo xml
+stream = open('ejemplo.xml', 'r')
 
-#Parse the data into an ElementTree object
+#Parsear la data en un objeto ElementTree 
 xml = ET.parse(stream)
 
-#Get the Root tag
+#obtener la etiqueta root (raiz del xml)
 root = xml.getroot()
 
-#Iterate through each child of the root elment
+#Iterar en cada rama del elemento raiz
 for e in root:
-    #Print the stringfied version of the element
+    #imprimir en formato string cada elemento
     print (ET.tostring(e))
     print ("")
-    #print the "ID" attribute of the element object
+    #imprimir el atributo ID de cada elemento
     print (e.get("Id"))
 

@@ -1,0 +1,36 @@
+---
+People:
+- ID: 1
+  FirstName: Juan
+  LastName: Perez
+  Email: juan.perez@ciberc.com
+- ID: 2
+  FirstName: Raul
+  LastName: Flores
+  Email: raul.flores@ciberc.com
+- ID: 3
+  FirstName: Eduardo
+  LastName: Najera
+  Email: eduardo.najera@ciberc.com
+...
+
+
+#---
+#CCNA: Devnet
+#Proveedor: Cisco
+#...
+#
+#---
+#- ID: 10
+#  FirstName: Ana
+#  LastName: Flores
+#  Email: ana.flores@ciberc.com
+#- ID: 20
+#  FirstName: Ricardo
+#  LastName: Flores
+#  Email: ricardo.flores@ciberc.com
+#- ID: 3-0
+#  FirstName: Luis
+#  LastName: Najera
+#  Email: luis.najera@ciberc.com
+#...
